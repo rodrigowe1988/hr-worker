@@ -8,6 +8,7 @@ public class Program {
 
         BusinessAccount account = new BusinessAccount();
 
+        account.setBalance(0.0);
         System.out.println(account.getBalance());
         account.deposit(100);
         System.out.println(account.getBalance());
